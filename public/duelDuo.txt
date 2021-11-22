@@ -1,0 +1,96 @@
+Duel Duo Test Plan
+Overview: Test the functionality of the app. 
+
+Links: http://127.0.0.1:5500/public/index.html
+
+
+Test Criteria:
+•	When the Draw button is clicked, 5 cards is displayed. 
+•	You can select 2 cards from the 5 to be your Duel Duo.
+•	When the Duel button is clicked, Duel Duo fight computer Duo.
+
+Entry Criteria: 
+•	Test criteria provided
+•	Running version provided for testing
+•	Computer for test
+
+Exit Criteria:
+•	All high priority tests have passed
+•	The allotted time is up
+
+Other details: 
+
+
+
+
+
+Test Case
+
+Draw button test
+
+Description
+
+This test will verify that when the “Draw” button is clicked, 5 cards are displayed. 
+Steps:
+1.	Navigate to http://127.0.0.1:5500/public/index.html
+2.	Click on the “Draw” button.
+3.	Wait for 5 bot cards to be displayed.
+
+Test Postconditions
+•	5 bot cards are displayed 
+
+
+
+
+
+
+
+
+
+
+Test Case
+
+DUEL Duo button test
+
+Description
+
+This test will verifys that when the “DULE” button is clicked, your Duo fights the computer’s Duo bot cards. 
+Steps:
+1.	Navigate to http://127.0.0.1:5500/public/index.html
+2.	Click on the “DUEL” button.
+3.	Wait for the computer to choose who won the fight
+
+
+Test Postconditions
+•	Get a ‘win’ or ‘lose’ message.
+
+
+
+
+
+
+
+
+
+Bug Report
+
+Draw button Bug Report
+
+Description 
+
+Steps to Reproduce
+1.	Navigate to http://127.0.0.1:5500/public/index.html
+2.	Click on the “Draw” button.
+
+Expected results
+•	5 bot cards displayed.
+
+Actual result
+•	Nothing happens when button is clicked.
+
+Enviroment
+•	Chrome 96
+•	Macbook
+
+
+ 
